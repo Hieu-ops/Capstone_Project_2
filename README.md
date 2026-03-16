@@ -144,4 +144,52 @@ Built with modern web technologies, it provides a comprehensive solution for man
 * **Prescription (doctor):** Prescriptions
 * **Appointment (doctor):** Appointments
 
+## Project Structure
+```text
+├── accounts/                   # User authentication & profiles
+│   ├── models.py               # User, Profile models
+│   ├── views.py                # Login, register, profile views
+│   ├── forms.py                # User forms
+│   └── templates/accounts/     # Auth templates
+│
+├── doctor/                     # Doctor portal
+│   ├── models.py               # Patient, Prescription models
+│   ├── views.py                # Doctor dashboard, patient management
+│   ├── forms.py                # Patient, prescription forms
+│   ├── urls.py                 # Doctor routes
+│   └── templates/doctor/       # Doctor templates
+│
+├── assistant/                  # Assistant portal
+│   ├── views.py                # Assistant dashboard
+│   ├── urls.py                 # Assistant routes
+│   └── templates/assistant/    # Assistant templates
+│
+├── static/                     # Static files
+│   ├── css/                    # Stylesheets
+│   ├── js/                     # JavaScript files
+│   ├── images/                 # Images and logos
+│   ├── manifest.json           # PWA manifest
+│   └── serviceworker.js        # PWA service worker
+│
+├── templates/                  # Base templates
+│   ├── base.html               # Base layout
+│   ├── landing.html            # Landing page
+│   └── components/             # Reusable components
+│
+├── media/                      # User uploads
+│   ├── profile_pics/           # Profile pictures
+│   └── prescriptions/          # Generated PDFs
+│
+├── imhotep_smart_clinic/       # Project settings
+│   ├── settings.py             # Django settings
+│   ├── urls.py                 # URL configuration
+│   └── wsgi.py                 # WSGI config
+│
+├── docker-compose.yml          # Docker configuration
+├── Dockerfile                  # Docker image definition
+├── requirements.txt            # Python dependencies
+├── .env.example                # Environment template
+├── manage.py                   # Django management script
+└── README.md                   # This file
+```
 
