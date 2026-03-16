@@ -82,7 +82,7 @@ Usage Guide
 First-Time Setup
 Access the Application
 
-Navigate to http://your-domain:8000
+Navigate to http://localhost:8000
 You'll see the landing page
 Create Your Account
 
