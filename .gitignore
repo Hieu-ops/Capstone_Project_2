@@ -1,0 +1,13 @@
+.env
+migrations/
+imhotep-tasks-twa/
+__pycache__/
+clinic_logos/
+
+# electron_app in the future
+dist/
+node_modules/
+
+imhotep_clinic.db
+
+.conda/
