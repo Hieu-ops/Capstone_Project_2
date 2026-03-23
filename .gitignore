@@ -1,6 +1,6 @@
 .env
 migrations/
-imhotep-tasks-twa/
+medivault-tasks-twa/
 __pycache__/
 clinic_logos/
 
@@ -8,6 +8,6 @@ clinic_logos/
 dist/
 node_modules/
 
-imhotep_clinic.db
+medivault_clinic.db
 
 .conda/
